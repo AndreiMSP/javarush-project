@@ -1,0 +1,23 @@
+package ru.javarush.java.core.level07.task09;
+
+public class Solution {
+    public static void main(String[] args) {
+        // Объявляем двумерный массив theaterSeating размером 2 строки и 3 столбца
+        int[][] theaterSeating = new int[2][3];
+        int count = 1;
+        // Заполняем массив числами от 1 до 6 по строкам
+        // счётчик для присвоения значений
+        for (int i = 0; i < theaterSeating.length; i++) {
+            for (int j = 0; j < theaterSeating[i].length; j++) {
+                theaterSeating[i][j] = count;
+                count++;
+            }
+        }
+
+        // присваиваем текущее значение и увеличиваем счётчик
+
+
+        // Выводим на экран элемент во второй строке и первом столбце (индекс [1][0])
+        System.out.println(theaterSeating[1][0]);
+    }
+}

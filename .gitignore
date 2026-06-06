@@ -39,3 +39,10 @@ build/
 .DS_Store
 /.idea/
 *.class
+/image04.png
+/image03.webp
+/letters_copy.bin
+/letters.bin
+/image02.jpg
+/note.txt
+/out/
