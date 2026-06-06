@@ -10,5 +10,8 @@ public class Solution {
 
         // Демонстрируем второй вариант метода: печать суммы двух чисел
         printer.printMessage(10, 20);
+        printer.printMessage(1,24,4);
+        printer.summ = 100;
+
     }
 }

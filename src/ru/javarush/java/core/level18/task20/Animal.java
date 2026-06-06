@@ -1,7 +1,15 @@
 package ru.javarush.java.core.level18.task20;
 
 public abstract class Animal {
-    String name;
+    private String name;
 
-    abstract void makeSound();
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public abstract void makeSound();
+
+    public String getName() {
+        return name;
+    }
 }

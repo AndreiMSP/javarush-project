@@ -4,7 +4,7 @@ package ru.javarush.java.core.level17.task09;
 public class Solution {
     public static void main(String[] args) {
         // Создаем объект собаки и вызываем её метод makeSound()
-        Dog dog = new Dog();
-        dog.makeSound();
+//        Dog dog = new Dog();
+//        dog.makeSound();
     }
 }

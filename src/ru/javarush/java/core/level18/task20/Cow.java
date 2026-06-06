@@ -1,12 +1,14 @@
 package ru.javarush.java.core.level18.task20;
 
 public class Cow extends Animal {
-    Cow(String name) {
-        this.name = name;
+    public Cow(String name) {
+        super(name);
     }
 
     @Override
-    void makeSound() {
-        System.out.println(name + ": Мууу!");
+    public void makeSound() {
+
+        System.out.println(getName() + "Мяу!");
+
     }
 }
