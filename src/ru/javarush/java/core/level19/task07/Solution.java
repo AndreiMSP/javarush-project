@@ -7,7 +7,7 @@ public class Solution {
         Circle circle = new Circle("Круг", 2.0);
 
         // Сначала выводим имя фигуры
-        System.out.println(circle.name);
+        System.out.println(circle.getName());
 
         // Затем выводим площадь круга
         System.out.println(circle.area());
