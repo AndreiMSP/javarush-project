@@ -8,8 +8,8 @@ public class Manager extends Employee {
         this.baseSalary = baseSalary;
     }
 
+    @Override
     public double getSalary() {
         return baseSalary;
     }
-
 }
